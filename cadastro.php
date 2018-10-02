@@ -19,7 +19,7 @@ $corpoemail = '<b>Fale Conosco</b>
  
  
  
-if(mail("schorles21@gmail.com", "Fale Conosco",$corpoemail,$headers)){
+if(mail("contato@candyrain.com.br", "Fale Conosco",$corpoemail,$headers)){
  
  
        echo "<script>alert('Mensagem enviada com sucesso!');</script>"; 
@@ -27,6 +27,6 @@ if(mail("schorles21@gmail.com", "Fale Conosco",$corpoemail,$headers)){
  
 } else{
  
-      echo "<script>alert('Erro ao enviar, tente diretamente pelo email schorles21@gmail.com');</script>";  
+      echo "<script>alert('Erro ao enviar, tente diretamente pelo email contato@candyrain.com.br');</script>";  
  
 }
