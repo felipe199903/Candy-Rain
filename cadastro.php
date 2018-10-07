@@ -22,11 +22,13 @@ $corpoemail = '<b>Fale Conosco</b>
 if(mail("contato@candyrain.com.br", "Fale Conosco",$corpoemail,$headers)){
  
  
-       echo "<script>alert('Mensagem enviada com sucesso!');</script>"; 
-       header("Location: index.php");
+       echo "<script>window.location='index.html';alert('Mensagem enviada com sucesso!');</script>"; 
+       header("Location: cadastro.php");
  
 } else{
  
-      echo "<script>alert('Erro ao enviar, tente diretamente pelo email contato@candyrain.com.br');</script>";  
+      echo "<script>window.location='index.html';alert('Erro ao enviar, tente diretamente pelo email contato@candyrain.com.br');</script>"; 
+      echo "<b>Detalhes do erro:</b> " . $mail->ErrorInfo; 
+ }
+
  
-}

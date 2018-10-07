@@ -14,15 +14,14 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.js"></script>
+    
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     
     <title>Candy Rain</title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#ff99cc">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#ff99cc">
 
       <div class="container">
 
@@ -35,17 +34,19 @@
           <ul class="navbar-nav mr-auto">
 
             <li class="nav-item">
-              <a class="nav-link" href="/index.html">Inicio</a>
+              <a class="nav-link" href="#home">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/manu.html">Doces</a>
-            </li>
-            <a class="navbar-brand h1 mb-0 ml-4 mr-2" href="/index.html">Candy Rain</a>
-            <li class="nav-item">
-              <a class="nav-link" href="/manu.html">História</a>
+              <a class="nav-link" href="#candy">Doces</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/manu.html">Contato</a>
+                <a class="navbar-brand h1 mb-0 ml-4 mr-2" href="#home">Candy Rain</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">História</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contato</a>
             </li>
 
           </ul>
@@ -53,6 +54,7 @@
       </div>
     </nav>
 
+    <div id="home"></div>
     <div id="carouselSite" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselSite" data-slide="0" class="active"></li>
@@ -97,7 +99,7 @@
       </div>
     </div>
 
-            <div class="container-fluid">
+            <div id="candy"class="container-fluid">
               <div class="row">
                 <div class="col-md-3 col-sm-3">
                   <div class="feature-gallery">
@@ -157,18 +159,18 @@
                            <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" name="txtName" class="form-control" placeholder="Seu Nome *" value="" />
+                                        <input type="text" name="txtName" required class="form-control" placeholder="Seu Nome *" value="" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="txtEmail" class="form-control" placeholder="Seu Email *" value="" />
+                                        <input type="text" name="txtEmail" required class="form-control" placeholder="Seu Email *" value="" />
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="txtPhone" class="form-control" placeholder="Seu Telefone *" value="" />
+                                        <input type="text" name="txtPhone" required class="form-control" placeholder="Seu Telefone *" value="" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea name="txtMsg" class="form-control" placeholder="Sua Mensagem *" style="width: 100%; height: 150px;"></textarea>
+                                        <textarea name="txtMsg" class="form-control" required placeholder="Sua Mensagem *" style="width: 100%; height: 150px;"></textarea>
                                     <div class="form-group" align="center"><br>
                                         <input type="submit" name="btnSubmit" class="btnContact" value="Enviar Mensagem"/>
                                     </div>
@@ -213,5 +215,10 @@
                       </div>	
                     </div>
                   </section>
-  </body>
+
+
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="node_modules/bootstrap/js/dist/scroll.js"></script>
 </html>
