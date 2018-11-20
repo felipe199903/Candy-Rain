@@ -9,9 +9,13 @@
 
 Fork this repository on GitHub.
 
-Clone your forked repository (not our original one) to your hard drive with git clone https://github.com/felipe199903/candy-rain
-
+Clone your forked repository (not our original one) to your hard drive with
+```
+git clone https://github.com/felipe199903/candy-rain
+```
+```
 cd candy-rain
+```
 
 ### Prerequisites
 
