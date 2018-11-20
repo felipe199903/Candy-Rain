@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://github.com/felipe199903/candy-rain/blob/master/img/logo%20novo.png" alt="Candy-Rain-logo" width="226">
   <br>
-  <a href="https://travis-ci.org/lord/slate"><img src="https://travis-ci.org/lord/slate.svg?branch=master" alt="Build Status"></a>
   <br>
   Confectionery website for better demonstration of the products offered by the company
 </p>
