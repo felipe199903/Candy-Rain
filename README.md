@@ -20,6 +20,8 @@ cd candy-rain
 
 ### Prerequisites
 
+You're going to need:
+
 **Node.js, version 10 or newer**
 
 **NPM Live-server**
